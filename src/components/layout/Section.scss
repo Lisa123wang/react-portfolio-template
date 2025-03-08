@@ -91,3 +91,30 @@ div.lead-section-content {
         transition: 0.4s transform ease-in-out;
     }
 }
+
+.grade-table-container {
+    background-color: black; // Sets the entire container's background to black
+
+    table {
+        width: 100%; // Ensures the table uses the full width of its container
+        border-collapse: collapse; // Removes gaps between borders
+        color: white; // Sets the text color to white for all table content
+
+        th, td {
+            border: 1px solid white; // Sets borders of table headers and cells to be white
+            padding: 8px; // Adds padding inside cells for better readability
+            background-color: black; // Sets the background for headers and cells to black
+            color: white; // Ensures text color is white
+        }
+
+        th {
+            font-weight: bold; // Makes the headers bold
+        }
+
+        tr:hover {
+            background-color: #555; // Adds a hover effect with a darker background
+        }
+    }
+}
+
+
