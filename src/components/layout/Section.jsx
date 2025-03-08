@@ -12,8 +12,6 @@ import ArticleContactForm from "/src/components/articles/ArticleContactForm.jsx"
 import ArticleGrid from "/src/components/articles/ArticleGrid.jsx"
 import ArticleInfoBlock from "/src/components/articles/ArticleInfoBlock.jsx"
 import ArticleList from "/src/components/articles/ArticleList.jsx"
-import GradeTable from '../articles/GradeTable.jsx';
-
 import ArticlePortfolio from "/src/components/articles/ArticlePortfolio.jsx"
 import ArticleServices from "/src/components/articles/ArticleServices.jsx"
 import ArticleTestimonials from "/src/components/articles/ArticleTestimonials.jsx"
@@ -43,8 +41,7 @@ const ARTICLES = {
     ArticleServices,
     ArticleTestimonials,
     ArticleThread,
-    ArticleTimeline,
-    GradeTable
+    ArticleTimeline
 }
 
 const utils = useUtils()
@@ -185,11 +182,8 @@ function SectionContent({articles}) {
                     </div>
                 )
             })}
-
         </div>
     )
 }
-
-
 
 export default Section

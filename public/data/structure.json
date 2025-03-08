@@ -42,6 +42,12 @@
             "faIcon": "fa-solid fa-award"
         },
 
+        {
+            "id": "updates",
+            "categoryId": "more",
+            "jsonPath": "/data/sections/updates.json",
+            "faIcon": "fa-solid fa-rss"
+        },
 
         {
             "id": "contact",

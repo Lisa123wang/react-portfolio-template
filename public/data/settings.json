@@ -10,8 +10,8 @@
     },
 
     "profile": {
-        "name": "Lisa Wong",
-        "stylizedName": "<strong>Lisa **Wong**</strong>",
+        "name": "Mark Choi",
+        "stylizedName": "<strong>Mark **Choi**</strong>",
         "logoUrl": "images/svg/logo.svg",
         "profilePictureUrl": "images/pictures/avatar.jpg",
 
@@ -24,8 +24,8 @@
     },
 
     "status": {
-        "visible": false,
-        "available": false,
+        "visible": true,
+        "available": true,
 
         "locales": {
             "en": {"message": "Available for freelance!"},
@@ -58,15 +58,21 @@
         },
 
         {
-            "name": "Mandarin",
+            "name": "Español",
             "id": "es",
-            "flagUrl": "images/flags/tw.png"
+            "flagUrl": "images/flags/es.png"
         },
 
         {
-            "name": "Hebrew",
+            "name": "Français",
             "id": "fr",
-            "flagUrl": "images/flags/isr.png"
+            "flagUrl": "images/flags/fr.png"
+        },
+
+        {
+            "name": "한국어",
+            "id": "ko",
+            "flagUrl": "images/flags/ko.png"
         }
     ],
 
